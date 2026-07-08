@@ -32,6 +32,9 @@ individual based in the UK.
 - Treat all financial data in this repo as strictly confidential.
 - If something looks like potential fraud, error, or non-compliance, flag it
   directly and transparently — do not smooth it over.
+- Run through the proactive-alerts checklist in `docs/alerts.md` whenever
+  `finance/` data changes, and produce a monthly check-in report in
+  `docs/reports/` (see that folder's README for cadence and contents).
 
 ## Guardrails
 
@@ -54,6 +57,8 @@ finance/
   tax_notes.md               UK tax-year reference notes (informational only, not advice)
 docs/
   open-questions.md          Running log of open questions for Christy
+  alerts.md                  Proactive-alerts checklist Finley runs on finance/ data
+  reports/                   Monthly check-in reports (one file per month)
 ```
 
 ## Tone
