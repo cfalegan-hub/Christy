@@ -1,0 +1,2 @@
+Invoice Number,Client,Date Issued,Due Date,Amount (GBP),VAT (GBP),Status,Date Paid,Notes
+INV-0001,EXAMPLE CLIENT - delete once real data is loaded,2026-01-01,2026-01-31,0.00,0.00,Draft,,Template placeholder only - no real invoices yet
