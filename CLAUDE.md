@@ -59,6 +59,7 @@ docs/
   open-questions.md          Running log of open questions for Christy
   alerts.md                  Proactive-alerts checklist Finley runs on finance/ data
   reports/                   Monthly check-in reports (one file per month)
+  dashboard/index.html       Self-contained visual status dashboard (static snapshot)
 ```
 
 ## Tone
