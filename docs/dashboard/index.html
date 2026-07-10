@@ -158,7 +158,7 @@
   }
   .jumpnav a:hover{ border-color:var(--border-strong); }
 
-  .group{ margin-bottom:2.75rem; }
+  .group{ margin-bottom:2.75rem; scroll-margin-top:4.5rem; }
   .group-eyebrow{
     display:flex; align-items:center; gap:0.75rem;
     font-family:inherit; font-size:0.74rem; text-transform:uppercase; letter-spacing:0.12em;
@@ -349,6 +349,7 @@
   </header>
 
   <nav class="jumpnav" aria-label="Dashboard sections">
+    <a href="#talk-to-finley">Talk to Finley</a>
     <a href="#overview">Overview</a>
     <a href="#cashflow">Cash flow</a>
     <a href="#expenditure">Expenditure</a>
@@ -363,6 +364,33 @@
   </nav>
 
   <main id="main" tabindex="-1">
+
+    <section class="group" id="talk-to-finley" aria-labelledby="talk-h">
+      <p class="group-eyebrow" id="talk-h">Talk to Finley</p>
+      <div class="callout info" style="margin-bottom:1.1rem;">
+        <p><strong>This page is a static snapshot, not a live app.</strong> It can't host a working chat box or accept file uploads directly — there's no server behind it by design, which is what makes it safe to open anywhere. The real place to talk to Finley is your Claude Code conversation.</p>
+      </div>
+      <div class="grid2">
+        <section class="card" aria-labelledby="talk-steps-h">
+          <div class="card-head"><h2 id="talk-steps-h">How to work with Finley</h2></div>
+          <ol class="qlist">
+            <li><span class="qidx mono" aria-hidden="true">01</span><div><div class="qtitle">Open your Christy session</div><p class="qbody">Go to claude.ai/code and continue this conversation, or start a new one in the Christy repository.</p></div></li>
+            <li><span class="qidx mono" aria-hidden="true">02</span><div><div class="qtitle">Send documents or ask questions</div><p class="qbody">Drop in bank statements, receipts, or invoices, or just describe a transaction in plain English — Finley reads and assesses them directly in the conversation.</p></div></li>
+            <li><span class="qidx mono" aria-hidden="true">03</span><div><div class="qtitle">Finley updates the records</div><p class="qbody">Real figures get written into <code>finance/</code>, and this dashboard gets regenerated with actual charts in place of these empty states.</p></div></li>
+          </ol>
+        </section>
+        <section class="card" aria-labelledby="talk-cap-h">
+          <div class="card-head"><h2 id="talk-cap-h">What Finley can do from there</h2></div>
+          <dl class="alert-dl">
+            <div class="alert-row"><dt>Analyse uploaded documents</dt><dd><span class="chip chip-idle">Ask in chat</span></dd></div>
+            <div class="alert-row"><dt>Build &amp; collate spreadsheets (CSV/XLSX)</dt><dd><span class="chip chip-idle">Ask in chat</span></dd></div>
+            <div class="alert-row"><dt>Generate charts &amp; graphs from real data</dt><dd><span class="chip chip-idle">Ask in chat</span></dd></div>
+            <div class="alert-row"><dt>Answer detailed tax &amp; bookkeeping questions</dt><dd><span class="chip chip-idle">Ask in chat</span></dd></div>
+          </dl>
+          <p class="card-note">These aren't buttons on this page — they happen when you ask Finley directly in conversation, then the results land here.</p>
+        </section>
+      </div>
+    </section>
 
     <section class="group" id="overview" aria-labelledby="overview-h">
       <p class="group-eyebrow" id="overview-h">Overview — calendar year 2026</p>
