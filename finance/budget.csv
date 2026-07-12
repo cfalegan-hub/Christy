@@ -1,40 +1,55 @@
 Month,Category,Budgeted Amount (GBP),Actual Amount (GBP),Variance (GBP),Notes
-2026-05,Cash Withdrawal (Beauty & Hair - cash-only vendors),150.00,310.00,160.00,Christy confirms most cash spend is hair/nails/beauty appointments that only take cash
-2026-06,Cash Withdrawal (Beauty & Hair - cash-only vendors),150.00,260.00,110.00,Christy confirms most cash spend is hair/nails/beauty appointments that only take cash
-2026-08,Beauty & Hair (cash-only vendors),220.00,,,"Renamed from generic 'Cash Withdrawal' now the purpose is known. Target trimmed from ~£285/mo average, not to £150 - this is a real recurring need, not waste. Fill in finance/cash_spending_log.csv to track actual vendor/amount per visit."
+2026-05,Beauty & Hair (cash-only vendors),150.00,310.00,160.00,Christy confirms most cash spend is hair/nails/beauty appointments that only take cash
+2026-06,Beauty & Hair (cash-only vendors),150.00,260.00,110.00,Christy confirms most cash spend is hair/nails/beauty appointments that only take cash
+2026-08,Beauty & Hair (cash-only vendors),220.00,,,"Real recurring need, not waste - kept at ~average. Log actual vendor/visit in finance/cash_spending_log.csv"
+2026-09,Beauty & Hair (cash-only vendors),220.00,,,"Unchanged - Christy asked to cut clothing/eating out, not this"
 2026-05,Clothing & Shopping,150.00,66.27,-83.73,
 2026-06,Clothing & Shopping,150.00,420.33,270.33,
-2026-08,Clothing & Shopping,150.00,,,Proposed target going forward
+2026-08,Clothing & Shopping,30.00,,,"Christy: 'need to stop clothing spending' - cut from £150 to £30 (near-zero, allows genuine necessities only)"
+2026-09,Clothing & Shopping,30.00,,,Held at the cut level into September
 2026-05,Eating Out,150.00,219.31,69.31,
 2026-06,Eating Out,150.00,192.17,42.17,
-2026-08,Eating Out,150.00,,,Proposed target going forward
+2026-08,Eating Out,0.00,,,Christy: 'eating out is a waste of money... no takeout' - cut to £0. Groceries budget below covers one weekly shop instead
+2026-09,Eating Out,0.00,,,Held at £0 into September
 2026-05,Entertainment,30.00,39.97,9.97,
 2026-06,Entertainment,30.00,6.95,-23.05,
-2026-08,Entertainment,30.00,,,Proposed target going forward
+2026-08,Entertainment,30.00,,,
+2026-09,Entertainment,30.00,,,
 2026-05,Fuel & Car,180.00,213.90,33.90,
 2026-06,Fuel & Car,180.00,126.31,-53.69,
-2026-08,Fuel & Car,180.00,,,Proposed target going forward
+2026-08,Fuel & Car,180.00,,,
+2026-09,Fuel & Car,180.00,,,May need revisiting once self-employed work/travel pattern is known
 2026-05,Gifts,20.00,30.00,10.00,
 2026-06,Gifts,20.00,0.00,-20.00,
-2026-08,Gifts,20.00,,,Proposed target going forward
+2026-08,Gifts,20.00,,,
+2026-09,Gifts,20.00,,,
 2026-05,Giving & Charity,30.00,20.00,-10.00,
 2026-06,Giving & Charity,30.00,40.00,10.00,
-2026-08,Giving & Charity,30.00,,,Proposed target going forward
+2026-08,Giving & Charity,30.00,,,
+2026-09,Giving & Charity,30.00,,,
 2026-05,Groceries,140.00,154.95,14.95,
 2026-06,Groceries,140.00,97.52,-42.48,
-2026-08,Groceries,140.00,,,Proposed target going forward
-2026-05,Health & Beauty,150.00,117.50,-32.50,
-2026-06,Health & Beauty,150.00,301.32,151.32,
-2026-08,Health & Beauty,150.00,,,Proposed target going forward
+2026-08,Groceries,140.00,,,"Christy: one weekly food shop instead of frequent small trips - same budget, should go further with fewer top-up trips"
+2026-09,Groceries,140.00,,,
+2026-05,Health & Beauty (card),150.00,117.50,-32.50,
+2026-06,Health & Beauty (card),150.00,301.32,151.32,
+2026-08,Health & Beauty (card),150.00,,,
+2026-09,Health & Beauty (card),150.00,,,
 2026-05,Other Services,25.00,25.00,0.00,
 2026-06,Other Services,25.00,22.30,-2.70,
-2026-08,Other Services,25.00,,,Proposed target going forward
+2026-08,Other Services,25.00,,,
+2026-09,Other Services,25.00,,,
 2026-05,Subscriptions,90.00,61.99,-28.01,EE mobile direct debit appears twice/month (~£47 + ~£42) - confirm this isn't a duplicate/error
 2026-06,Subscriptions,90.00,159.81,69.81,EE mobile direct debit appears twice/month (~£47 + ~£42) - confirm this isn't a duplicate/error
-2026-08,Subscriptions,90.00,,,Proposed target going forward
+2026-08,Subscriptions,90.00,,,Still pending EE confirmation
+2026-09,Subscriptions,90.00,,,
 2026-05,Transport & Parking,20.00,11.83,-8.17,
 2026-06,Transport & Parking,20.00,26.10,6.10,
-2026-08,Transport & Parking,20.00,,,Proposed target going forward
+2026-08,Transport & Parking,20.00,,,
+2026-09,Transport & Parking,20.00,,,
+2026-09,Mortgage,1295.00,,,New fixed cost starting ~September 2026 - please confirm exact start date and whether this is capital+interest or interest-only
+2026-09,Tax & National Insurance set-aside (self-employed),1250.00,,,"General placeholder at 25% of the £5,000 conservative income baseline - NOT a real tax calculation. Self-employment income isn't taxed at source like PAYE was. First-year Self Assessment may also require a 'payment on account' toward next year, making the first bill bigger than 25% of one year's profit. Please confirm actual figure with an accountant before September."
 2026-05,Savings (transfer out),2000.00,2500.00,500.00,"Treated as a budget line, not spending - 'pay yourself first'"
 2026-06,Savings (transfer out),2000.00,2000.00,0.00,"Treated as a budget line, not spending - 'pay yourself first'"
 2026-08,Savings (transfer out),2000.00,,,Proposed minimum monthly savings transfer
+2026-09,Savings (transfer out),1500.00,,,"Trimmed from £2,000 to make room for the mortgage and tax set-aside - revisit once actual self-employed income and tax figure are confirmed"
