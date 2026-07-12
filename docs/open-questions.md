@@ -58,5 +58,10 @@ answer noted.
 
 ## Resolved
 
-_(none yet — items above are evidence-based inferences pending your
-confirmation, not closed out)_
+1. **What does the payday cash withdrawal cover?** Christy confirmed most
+   cash spending is hair, nails, and beauty appointments at vendors that are
+   cash-only. Reflected in `finance/budget.csv` (category renamed from
+   generic "Cash Withdrawal" to "Beauty & Hair (cash-only vendors)") and a
+   new `finance/cash_spending_log.csv` was created to track each
+   withdrawal against the actual vendor/visit going forward, since a bank
+   statement alone can't show that detail.

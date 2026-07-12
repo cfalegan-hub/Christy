@@ -1,7 +1,7 @@
 Month,Category,Budgeted Amount (GBP),Actual Amount (GBP),Variance (GBP),Notes
-2026-05,Cash Withdrawal,150.00,310.00,160.00,
-2026-06,Cash Withdrawal,150.00,260.00,110.00,
-2026-08,Cash Withdrawal,150.00,,,Proposed target going forward
+2026-05,Cash Withdrawal (Beauty & Hair - cash-only vendors),150.00,310.00,160.00,Christy confirms most cash spend is hair/nails/beauty appointments that only take cash
+2026-06,Cash Withdrawal (Beauty & Hair - cash-only vendors),150.00,260.00,110.00,Christy confirms most cash spend is hair/nails/beauty appointments that only take cash
+2026-08,Beauty & Hair (cash-only vendors),220.00,,,"Renamed from generic 'Cash Withdrawal' now the purpose is known. Target trimmed from ~£285/mo average, not to £150 - this is a real recurring need, not waste. Fill in finance/cash_spending_log.csv to track actual vendor/amount per visit."
 2026-05,Clothing & Shopping,150.00,66.27,-83.73,
 2026-06,Clothing & Shopping,150.00,420.33,270.33,
 2026-08,Clothing & Shopping,150.00,,,Proposed target going forward

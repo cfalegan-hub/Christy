@@ -9,6 +9,9 @@ agent). See `CLAUDE.md` for how Finley operates in this repo.
 - `finance/income_and_expenses.csv` — cash-basis income & expense log
 - `finance/invoices.csv` — invoice / receivables tracker
 - `finance/budget.csv` — monthly budget vs. actual
+- `finance/cash_spending_log.csv` — tracks cash withdrawals against the
+  actual cash-only vendor/visit (mostly hair/nails/beauty), since a bank
+  statement alone only shows "cash withdrawn," not what it was spent on
 - `finance/tax_notes.md` — UK tax-year reference notes (not advice)
 - `docs/open-questions.md` — running log of open questions for Christy
 - `docs/alerts.md` — proactive-alerts checklist Finley runs against `finance/`
@@ -18,9 +21,11 @@ agent). See `CLAUDE.md` for how Finley operates in this repo.
 
 ## Status
 
-All templates are currently placeholders with no real financial data. See
-`docs/open-questions.md` for what's needed to populate them with Christy's
-actual figures.
+Two months of real data (May–Jun 2026, plus partial Jul) are loaded from
+HSBC bank statements. `finance/invoices.csv` remains a placeholder — no
+invoicing activity has appeared, consistent with PAYE employment rather
+than self-employment. See `docs/open-questions.md` for what's still
+outstanding.
 
 ## Dashboard
 

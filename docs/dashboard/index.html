@@ -495,7 +495,7 @@
             <span class="count mono">2 months, real data</span>
           </div>
           <ul class="hbar-list">
-            <li class="hbar-row"><span class="hlabel">Cash withdrawals (untraced)</span><span class="hbar-track"><span class="hbar-fill" style="width:100.0%"></span></span><span class="hval mono">£570.00</span></li>
+            <li class="hbar-row"><span class="hlabel">Beauty &amp; hair (cash-only vendors)</span><span class="hbar-track"><span class="hbar-fill" style="width:100.0%"></span></span><span class="hval mono">£570.00</span></li>
             <li class="hbar-row"><span class="hlabel">Clothing & shopping</span><span class="hbar-track"><span class="hbar-fill" style="width:85.4%"></span></span><span class="hval mono">£486.60</span></li>
             <li class="hbar-row"><span class="hlabel">Health & beauty</span><span class="hbar-track"><span class="hbar-fill" style="width:73.5%"></span></span><span class="hval mono">£418.82</span></li>
             <li class="hbar-row"><span class="hlabel">Eating out & takeaway</span><span class="hbar-track"><span class="hbar-fill" style="width:72.2%"></span></span><span class="hval mono">£411.48</span></li>
@@ -509,7 +509,7 @@
             <li class="hbar-row"><span class="hlabel">Transport & parking</span><span class="hbar-track"><span class="hbar-fill" style="width:6.7%"></span></span><span class="hval mono">£37.93</span></li>
             <li class="hbar-row"><span class="hlabel">Gifts</span><span class="hbar-track"><span class="hbar-fill" style="width:5.3%"></span></span><span class="hval mono">£30.00</span></li>
           </ul>
-          <p class="card-note">Cash withdrawals are the single biggest bucket and can't be traced further from a bank statement alone — see the savings analysis below. "Uncertain merchants" are six transactions I couldn't confidently categorise; see <code>docs/open-questions.md</code>.</p>
+          <p class="card-note">The biggest bucket is cash — confirmed as mostly hair/nails/beauty appointments at cash-only vendors. Fill in <code>finance/cash_spending_log.csv</code> per visit for exact tracking. "Uncertain merchants" are six card transactions I couldn't confidently categorise; see <code>docs/open-questions.md</code>.</p>
         </section>
 
       </div>
@@ -556,7 +556,7 @@
           <span class="dval mono">+£41.80</span>
         </div>
         <div class="div-row">
-          <span class="hlabel">Cash withdrawals</span>
+          <span class="hlabel">Beauty &amp; hair (cash)</span>
           <span class="div-track"><span class="div-mid" aria-hidden="true"></span><span class="div-fill" style="left:50%; width:50.0%; background:var(--chart-expense);"></span></span>
           <span class="dval mono">+£270.00</span>
         </div>
@@ -585,7 +585,7 @@
           <span class="div-track"><span class="div-mid" aria-hidden="true"></span><span class="div-fill" style="left:49.5%; width:0.5%; background:var(--chart-income);"></span></span>
           <span class="dval mono">-£2.70</span>
         </div>
-        <p class="card-note">Budgeted amounts are combined May+June targets (£150/month per category, tuned to each category — see <code>finance/budget.csv</code>). Biggest overages: <strong>Cash withdrawals</strong> (+£270, largely untraceable), <strong>Clothing &amp; shopping</strong> (+£186.60, mostly June), and <strong>Health &amp; beauty</strong> (+£118.82). Savings ran £500 <em>ahead</em> of the £4,000 combined target (£4,500 actually transferred) — that's the one place "over" is good news.</p>
+        <p class="card-note">Budgeted amounts are combined May+June targets (see <code>finance/budget.csv</code>). Biggest overages: <strong>Beauty &amp; hair (cash)</strong> (+£270 — now understood to be hair/nails/beauty at cash-only vendors, tracked in <code>finance/cash_spending_log.csv</code>), <strong>Clothing &amp; shopping</strong> (+£186.60, mostly June), and <strong>Health &amp; beauty (card)</strong> (+£118.82) — combined, beauty-related spend across both cash and card is your single largest discretionary category. Savings ran £500 <em>ahead</em> of the £4,000 combined target (£4,500 actually transferred) — that's the one place "over" is good news.</p>
       </section>
     </section>
 
@@ -780,6 +780,7 @@
                 <tr><th scope="row" class="sans">Income &amp; expenses</th><td class="num">147</td><td><span class="chip chip-idle">Real data — May &amp; June 2026</span></td></tr>
                 <tr><th scope="row" class="sans">Invoices</th><td class="num">1</td><td><span class="chip chip-idle">No real data — no invoicing seen</span></td></tr>
                 <tr><th scope="row" class="sans">Budget</th><td class="num">39</td><td><span class="chip chip-idle">Real data — proposed budget vs. actual</span></td></tr>
+                <tr><th scope="row" class="sans">Cash spending log</th><td class="num">10</td><td><span class="chip chip-warn">Awaiting vendor detail from Christy</span></td></tr>
               </tbody>
             </table>
           </div>
